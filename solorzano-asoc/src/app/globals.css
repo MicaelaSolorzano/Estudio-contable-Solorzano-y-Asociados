@@ -8,7 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: ligth) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 255, 255, 255;
@@ -38,4 +38,8 @@ body {
 
 .inpt {
   @apply border-b-2 bg-transparent border-bunting-500 focus:outline-none;
+}
+
+.title {
+  @apply text-bunting-800 text-left text-4xl p-10;
 }
