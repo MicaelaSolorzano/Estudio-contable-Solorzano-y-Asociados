@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="flex  min-h-screen min-w-screen justify-items-center p-10">
+    <section className="flex min-w-screen justify-items-center p-10">
       <div className="flex flex-col w-96 p-10 gap-5">
         <h1>¿Necesita un contador de confianza?</h1>
         <h4 className="text-justify">
@@ -10,7 +10,7 @@ export default function Contact() {
           comunicaremos con usted.
         </h4>
       </div>
-      <div className="flex min-h-screen flex-col items-center ">
+      <div className="flex flex-col items-center ">
         <form className="flex flex-col w-96 p-10 gap-5">
           <label>Nombre:</label>
           <input className="inpt"></input>
