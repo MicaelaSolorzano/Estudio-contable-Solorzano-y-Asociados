@@ -33,13 +33,13 @@ body {
 }
 
 .btn-bg {
-  @apply p-3 rounded-lg text-center text-white bg-bunting-800 hover:bg-bunting-700 transition-all duration-300;
+  @apply p-3 rounded-lg text-center text-white bg-chambray-800 hover:bg-chambray-700 transition-all duration-300;
 }
 
 .inpt {
-  @apply border-b-2 bg-transparent border-bunting-500 focus:outline-none;
+  @apply border-b-2 bg-transparent border-chambray-500 focus:outline-none;
 }
 
 .title {
-  @apply text-bunting-800 text-left text-4xl p-10;
+  @apply text-chambray-800 text-left text-4xl p-10;
 }
