@@ -2,6 +2,7 @@ import Nav from "./(components)/nav/Nav";
 import Services from "./(components)/services/Services";
 import Contact from "./(components)/contact/page";
 import Footer from "./(components)/footer/Footer";
+import Goals from "./(components)/goals/Goals";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
         Brindamos un servicio de alto nivel profesional, ofrecemos soluciones
         concretas a sus necesidades y lo acompañamos en su crecimiento
       </h3>
+      <h1 className="title">Objetivos de Solórzano & Asociados</h1>
+      <Goals></Goals>
       <h1 className="title">Nuestros Servicios</h1>
       <Services></Services>
       <h1 className="title">Contacto</h1>
