@@ -12,6 +12,7 @@ export default function Goals() {
         personalizada acorde a las necesidades de cada uno de ellos y
         poniéndoles a disposición soluciones eficientes.
       </h5>
+
       <button className="btn-bg"> Saber más sobre nosotros</button>
     </section>
   );

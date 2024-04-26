@@ -1,3 +1,5 @@
+import fb from "../../../../img/facebook.png";
+
 export default function Footer() {
   return (
     <footer className="flex min-w-screen w-full items-center justify-between ">
@@ -6,14 +8,26 @@ export default function Footer() {
           <h2 className="text-lg"> Solórzano & Asociados</h2>
 
           <div className="flex gap-3 text-sm">
-            <p>Inicio</p>
-            <p>Objetivos</p>
-            <p>Servicios</p>
-            <p>Sobre nosotros</p>
-            <p>Contacto</p>
+            <p>
+              <a href="#welcome">Inicio</a>
+            </p>
+            <p>
+              <a href="#goals">Objetivos</a>
+            </p>
+            <p>
+              <a href="#goals">Sobre nosotros</a>
+            </p>
+            <p>
+              <a href="#services">Servicios</a>
+            </p>
+
+            <p>
+              <a href="#contact">Contacto</a>
+            </p>
           </div>
         </div>
         <div className="text-sm">
+          <img src={fb}></img>
           <h5 className="text-base font-semibold">
             Ciudad Autónoma de Buenos Aires
           </h5>
