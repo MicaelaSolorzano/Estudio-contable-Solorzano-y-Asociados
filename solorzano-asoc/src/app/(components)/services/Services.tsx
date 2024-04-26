@@ -1,6 +1,11 @@
 export default function Services() {
   return (
-    <section className="flex min-w-screen flex-col w-4/5 items-center justify-between gap-10">
+    <section
+      id="services"
+      className="flex min-w-screen flex-col w-4/5 items-center justify-between gap-10"
+    >
+      <h1 className="title">Nuestros Servicios</h1>
+
       <div className="flex">
         <div>
           <p> Contabilidad, Auditoría, Finanzas y Societario</p>

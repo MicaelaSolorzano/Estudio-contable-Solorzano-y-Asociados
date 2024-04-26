@@ -7,7 +7,8 @@ export default function Footer() {
 
           <div className="flex gap-3 text-sm">
             <p>Inicio</p>
-            <p>Nuestros servicios</p>
+            <p>Objetivos</p>
+            <p>Servicios</p>
             <p>Sobre nosotros</p>
             <p>Contacto</p>
           </div>

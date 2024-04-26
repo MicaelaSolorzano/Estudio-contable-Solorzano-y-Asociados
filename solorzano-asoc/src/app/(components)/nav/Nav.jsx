@@ -7,10 +7,22 @@ export default function Nav() {
           <h5>Consultores y Auditores</h5>
         </div>
         <div className="flex justify-normal gap-8">
-          <p>Inicio</p>
-          <p>Nuestros servicios</p>
-          <p>Sobre nosotros</p>
-          <p>Contacto</p>
+          <p>
+            <a href="#welcome">Inicio</a>
+          </p>
+          <p>
+            <a href="#goals">Objetivos</a>
+          </p>
+          <p>
+            <a href="#goals">Sobre nosotros</a>
+          </p>
+          <p>
+            <a href="#services">Servicios</a>
+          </p>
+
+          <p>
+            <a href="#contact">Contacto</a>
+          </p>
         </div>
       </div>
     </header>
